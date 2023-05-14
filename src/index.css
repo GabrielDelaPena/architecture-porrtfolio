@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-[Roboto];
+  }
+
+  li {
+    @apply px-4;
+    @apply cursor-pointer
+  }
+}
+
+.image-size {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
